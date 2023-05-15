@@ -206,7 +206,7 @@ public class Main extends Application {
 		root.setCenter(addressBox);
 		root.setBottom(allButtonBox);
 		
-		Scene scene = new Scene(root, 500, 300);
+		Scene scene = new Scene(root, 800, 800);
 		primaryStage.setTitle("Customer");
 		
 		return scene;
@@ -371,7 +371,7 @@ public class Main extends Application {
 		root.setCenter(fieldBox);
 		root.setBottom(allButtonBox);
 		
-		Scene scene = new Scene(root, 500, 300);
+		Scene scene = new Scene(root, 800, 800);
 		primaryStage.setTitle("Order");
 		
 		return scene;
